@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+nav{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    display :inline-block;
+    padding: 20px;
+    background-color: black;
+    margin: 5px;
+    
+}
+.btn:hover{
+    background-color: purple
+}
+.btn > ul{
+    display: none;
+    background-color: green;
+    position: absolute;
+}
+
+.btn:hover >ul{
+    display: block;
+}
+
+nav ul{
+    
+    list-style: none;
+    padding: 0px;
+}
+.btn > ul > li{
+    padding: 20px;
+}
+.btn > ul > li:hover{
+    background-color: yellowgreen;
+    color: purple;
+}
+table{
+    margin: auto;
+}
+td{
+    border-width: 7px;
+    font-size: 120%;
+    padding: 20px;
+    margin: 0px;
+}
+h4{
+    text-align: center;
+}
+
+tr td {
+    background-color: grey;
+}
+td + td + td {
+    background-color: rgb(243, 176, 52);
+}
